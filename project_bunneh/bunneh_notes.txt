@@ -1,0 +1,35 @@
+Text-based game with some colorization Inside of a GUI -
+CHARACTER:
+Hero
+-Gender: Choose from these genders:
+    1. Male
+    2. Female
+- Race: choose One of seven races:
+    1. Human
+    2. Elf
+    3. Dwarf
+    4. Gnome
+    5. Halfling
+    6. Dragonborn
+    7. Orc
+- Class: choose One of the nine classes:
+    1. Fighter
+    2. Wizard
+    3. Sorcerer
+    4. Cleric
+    5. Barbarian
+    6. Rogue
+    7. Ranger
+    8. Paladin
+    9. Druid
+- Statistics: You have these statistics:
+    1. Strength
+    2. Dexterity
+    3. Constitution
+    4. Intelligence
+    5. Wisdom
+    6. Charisma
+    7. Luck
+    - Statistics cannot be lower than 1, no higher than 30, they play a role in everything your character can do.
+- Inventory: This tells the player what exactly is in their backpack.
+- Equipment: This tells the player exactly what they have equipped, and how many slots are free and what can be equipped in said slots.
