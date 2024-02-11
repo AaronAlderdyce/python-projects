@@ -1,59 +1,12 @@
+import os, random
+from race import Race
+from job import Job
+from stats import Stats, DerivedStats
+from skills import Skills
+
+
+
 gender = ["male", "female"]
-race = ["Human",
-        "Elf",
-        "Dwarf",
-        "Gnome",
-        "Halfling",
-        "Dragonborn",
-        "Orc",
-        "Goblin",
-        "Half-Orc",
-        ]
-job = ["Fighter",
-       "Wizard",
-       "Sorcerer",
-       "Cleric",
-       "Barbarian",
-       "Rogue",
-       "Ranger",
-       "Paladin",
-       "Druid",
-       ]
-stats = ["Strength",
-         "Dexterity",
-         "Constitution",
-         "Intelligence",
-         "Wisdom",
-         "Charisma",
-         "Luck",]
-derived_stats = {"Hit Points" : "HP",
-                 "Mana Points" : "MP",
-                 "Energy Points" : "EP",
-                 }
-skills = ["Unarmed",
-          "Blunt",
-          "Sharp",
-          "Pierce",
-          "Ranged",
-          "Two-Handed",
-          "Dual-Wielding",
-          "Jump",
-          "Climb",
-          "Swim",
-          "Parkour",
-          "Dodge",
-          "Pick Pocket",
-          "Lie",
-          "Persuade",
-          "Seduce",
-          "Hide",
-          "Move Silently",
-          "Sense Motive",
-          "Search",
-          "Knowledge",
-          "Craft Mundane",
-          "Craft Magical",
-          ]
 inventory = []
 equipment = []
 coords = []
