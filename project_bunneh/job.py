@@ -1,3 +1,4 @@
+
 job = ["Fighter",
        "Wizard",
        "Sorcerer",
