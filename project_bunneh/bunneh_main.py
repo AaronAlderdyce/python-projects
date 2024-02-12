@@ -4,7 +4,7 @@ import os, random
 # from stats import Stats, DerivedStats
 # from skills import Skills
 import customtkinter as ctk
-from bunneh_GUI import gui_main
+from gui_main import draw_window
 
 def draw_menu():
     print("&##############################################################################&")

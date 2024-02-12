@@ -1,6 +1,5 @@
 import customtkinter as ctk
 
-
 def new_char_window():
     char_window = ctk.CTk()
     char_window.title("Character Creation")

@@ -1,6 +1,7 @@
 import customtkinter as ctk
 from gui_funcs import new_char_window
 
+
 def draw_window():
     # Main window attributes
     window = ctk.CTk()
