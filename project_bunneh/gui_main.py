@@ -29,8 +29,3 @@ def draw_window():
 
     # Keeping window open
     window.mainloop()
-
-
-
-
-draw_window()
