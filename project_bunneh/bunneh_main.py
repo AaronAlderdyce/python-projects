@@ -1,19 +1,3 @@
-import os, random
-# from race import Race
-# from job import Job
-# from stats import Stats, DerivedStats
-# from skills import Skills
-import customtkinter as ctk
-from gui_main import draw_window
+from gui_funcs import open_main_window
 
-def draw_menu():
-    print("&##############################################################################&")
-
-gender = ["male", "female"]
-inventory = []
-equipment = []
-coords = []
-
-
-
-draw_window()
+open_main_window()
