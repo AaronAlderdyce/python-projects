@@ -1,4 +1,5 @@
 import tkinter as tk
+from gui_two import gui_two as g2
 
 
 
@@ -22,8 +23,8 @@ def open_main_window():
     label.pack(pady=10)
 
     # Create a button with custom background color
-    button = tk.Button(mw, text="Click Me", bg=button_color)
-    button.pack(pady=10)
+    # and to bring up gui_two
+    button = tk.Button(text="GUI_Two", command=lambda: g2()).pack()
 
 
 
